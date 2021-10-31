@@ -1,0 +1,116 @@
+.teachers {
+  padding: 71px 0 40px 0;
+  color: #fff;
+  background-color: #2e2b44;
+}
+
+.teachers__h2 {
+  margin-left: 12px;
+  margin-bottom: 20px;
+}
+
+.teachers__item {
+  padding-top: 213px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-image: url("../img/vladimir__petrov.png");
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+
+.teachers__item_vp {
+  background-image: url("../img/vladimir__petrov.png");
+}
+
+.teachers__item_ds {
+  background-image: url("../img/denis__sergeev.png");
+}
+
+.teachers__item_ma {
+  background-image: url("../img/mikhail__andreev.png");
+}
+
+.teachers__item_kd {
+  background-image: url("../img/konstantin__dmitriev.png");
+}
+
+.teachers__h3 {
+  margin-bottom: 10px;
+  max-width: 254px;
+}
+
+.teachers__p {
+  max-width: 254px;
+  color: #85859b;
+}
+
+@media (max-width: 992px) {
+  .teachers__item {
+    background-position: 0 0;
+  }
+
+  .teachers__item_vp {
+    background-image: url("../img/vladimir__petrov_690.png");
+  }
+
+  .teachers__item_ds {
+    background-image: url("../img/denis__sergeev_690.png");
+  }
+
+  .teachers__item_ma {
+    background-image: url("../img/mikhail__andreev_690.png");
+  }
+
+  .teachers__item_kd {
+    background-image: url("../img/konstantin__dmitriev_690.png");
+  }
+
+  .teachers__h3 {
+    max-width: 330px;
+  }
+
+  .teachers__p {
+    max-width: 330px;
+  }
+
+  .teachers {
+    padding: 71px 0 23px 0;
+  }
+  .teachers__item {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .teachers {
+    padding: 71px 0 45px 0;
+  }
+
+  .teachers__item {
+    background-position: center 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .teachers {
+    padding: 45px 0 20px 0;
+  }
+
+  .teachers__h2 {
+    margin-left: 14px;
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+
+  .teachers__item {
+    background-size: 400px 180px;
+    background-position: 0 0;
+    padding-left: 2px;
+  }
+}
+
+@media (max-width: 435px) {
+  .teachers__item {
+    background-position: center 0;
+  }
+}

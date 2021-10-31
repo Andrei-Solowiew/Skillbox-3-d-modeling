@@ -1,0 +1,119 @@
+.advantages {
+  padding: 80px 0;
+}
+
+.advantages__content {
+  margin-left: 13px;
+  margin-bottom: 25px;
+  padding-left: 189px;
+  background-image: url("../img/advantages__background.png");
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+
+.advantages__h2 {
+  margin-bottom: 18px;
+  max-width: 380px;
+  line-height: 40px;
+  color: #2e2b44;
+}
+
+.advantages__p {
+  max-width: 585px;
+}
+
+.advantages__list {
+  justify-content: space-between;
+}
+
+.advantages__item {
+  padding: 0;
+  max-width: 353px;
+  background-repeat: no-repeat;
+  background-image: url("../img/eye-circle.svg");
+}
+
+.advantages__item_eye {
+  background-image: url("../img/eye-circle.svg");
+}
+
+.advantages__item_fingers {
+  background-image: url("../img/fingers.svg");
+}
+
+.advantages__item_mouthpiece {
+  background-image: url("../img/mouthpiece.svg");
+}
+
+.advantages__info {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 110px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 992px) {
+  .advantages__info {
+    padding-top: 90px;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .advantages {
+    padding: 85px 0 60px 0;
+  }
+
+  .advantages__content {
+    padding-left: 242px;
+    background-image: url("../img/advantages__background_690.png");
+  }
+  .advantages__info {
+    max-width: 210px;
+  }
+}
+
+@media (max-width: 767px) {
+  .advantages {
+    padding: 80px 0 48px 0;
+  }
+
+  .advantages__content {
+    padding-left: 180px;
+    background-image: url("../img/advantages__background_510.png");
+    background-position: 0 0;
+  }
+
+  .advantages__info {
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 565px) {
+  .advantages {
+    padding: 51px 0 13px 0;
+  }
+
+  .advantages__content {
+    padding-left: 0;
+    background-image: none;
+  }
+
+  .advantages__h2 {
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .advantages__p {
+    max-width: 280px;
+  }
+
+  .advantages__info {
+    padding-top: 0;
+    padding-left: 110px;
+    padding-bottom: 40px;
+    max-width: 290px;
+  }
+}
